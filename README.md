@@ -1,2 +1,2 @@
 # PotentialLandslides
-San Francisco Potential Landslides using ArcGIS
+San Francisco Bay Area Potential Landslides using ArcGIS
