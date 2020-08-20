@@ -1,0 +1,254 @@
+<metadata xml:lang="en"><Esri><CreaDate>20150403</CreaDate><CreaTime>13501100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20150615</SyncDate><SyncTime>18050900</SyncTime><ModDate>20150615</ModDate><ModTime>18050900</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090828" Time="111942" Name="" export="">FeatureClassToFeatureClass Q:\Projects\Transfer\USGS_Existing_Landslide_Areas.shp "Database Connections\ABAG_DataLoader.sde\sde.abag.Environmental" USGS_Existing_Landslide_Areas # "PTYPE 'PTYPE' true true false 35 Text 0 0 ,First,#,Q:\Projects\Transfer\USGS_Existing_Landslide_Areas.shp,PTYPE,-1,-1;LSCAT 'LSCAT' true true false 4 Short 0 4 ,First,#,Q:\Projects\Transfer\USGS_Existing_Landslide_Areas.shp,LSCAT,-1,-1" # "Database Connections\ABAG_DataLoader.sde\sde.abag.Environmental\sde.abag.USGS_Existing_Landslide_Areas"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090929" Time="181933" Name="" export="">CopyFeatures "Database Connections\MichaelS_DataMaintenance.sde\sde.abag.Environmental\sde.abag.USGS_Existing_Landslide_Areas" O:\Environmental\sde_abag_USGS_Existing_Landslide_Areas.shp # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20091007" Time="123138" Name="" export="">CopyFeatures G:\Geodatabase\Environmental\USGS_Existing_Landslide_Areas.shp "Database Connections\SDE_DatabaseAdmin.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas" # 0 0 0</Process><Process Name="Feature Class to Feature Class (3)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100511" Time="134515" export="">FeatureClassToFeatureClass "Database Connections\SDE_DataViewer4.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas" S:\PostgreSQL\GDB\Environmental USGS_Existing_Landslide_Areas.shp # "ptype 'ptype' true true false 35 Text 0 0 ,First,#,Database Connections\SDE_DataViewer4.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas,ptype,-1,-1;lscat 'lscat' true true false 4 Long 0 10 ,First,#,Database Connections\SDE_DataViewer4.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas,lscat,-1,-1" # S:\PostgreSQL\GDB\Environmental\USGS_Existing_Landslide_Areas.shp</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20100522" Time="214900" Name="" export="">CopyFeatures S:\PostgreSQL\GDB\Environmental\USGS_Existing_Landslide_Areas.shp "Database Connections\SDE_Database_Manager.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas" # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110331" Time="110556" Name="" export="">CopyFeatures "Database Connections\ArcIMS_Data_Viewer.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas" C:\Temp\GDBTransfer\Data\Environmental\sde_sde_USGS_Existing_Landslide_Areas.shp # 0 0 0</Process><Process Name="Delete Field (14)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20110331" Time="120920" export="">DeleteField C:\Temp\GDBTransfer\Data\Environmental\sde_sde_USGS_Existing_Landslide_Areas.shp st_area_sh;st_length_ C:\Temp\GDBTransfer\Data\Environmental\sde_sde_USGS_Existing_Landslide_Areas.shp</Process><Process Name="Rename (14)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Rename" Date="20110331" Time="120921" export="">Rename C:\Temp\GDBTransfer\Data\Environmental\sde_sde_USGS_Existing_Landslide_Areas.shp C:\Temp\GDBTransfer\Data\Environmental\haz_USGS_ExistingLandslideAreas.shp #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110624" Time="105343" Name="" export="">CopyFeatures D:\projects\PostgreSQL\Environmental\USGS_Existing_Landslide_Areas.shp "Database Connections\SDE_DataEditor.sde\sde.sde.Environmental\sde.sde.USGS_Existing_Landslide_Areas" # 0 0 0</Process></lineage><itemProps><itemName Sync="TRUE">Landslides_USGS</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\ad.abag.ca.gov\abagShares\GIS\MichaelGermeraad\RiskLandscapes\Hazards\Landslide\Landslides_USGS.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><nativeExtBox><westBL Sync="TRUE">453716.023200</westBL><eastBL Sync="TRUE">659405.484100</eastBL><southBL Sync="TRUE">4079131.276300</southBL><northBL Sync="TRUE">4301913.161200</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">32.803</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_10N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_10N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-123.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26910]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26910&lt;/WKID&gt;&lt;LatestWKID&gt;26910&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits></coordRef><copyHistory><copy source="N:\GIS\MichaelGermeraad\RiskLandscapes\Landslides_USGS" dest="\\ad.abag.ca.gov\abagShares\GIS\MichaelGermeraad\RiskLandscapes\Hazards\Landslide\Landslides_USGS" date="20150403" time="16124900"/></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>FGDC</ArcGISProfile></Esri><idinfo><native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3500</native><descript><langdata Sync="TRUE">en</langdata><abstract>The distribution of landslides evident in the landscape -- most of which are slumps, translational slides, and earth flows -- is of interest both for evaluation of hazard and risk and for use in further study of landslides. Future movement of such landslides is most likely to occur within and around the places where they have previously occurred. A map showing the generalized distribution of these landslides was published by Nilsen and Wright for the 9-county San Francisco Bay region in 1979. Original sources available at the time of that compilation were incomplete for the region. Landslide mapping that has since become available provides a basis for revision and extension of that work, and modern procedures allow this to be done in digital form. We have digitized category 5 (landslides) from the Nilsen and Wright map, added equivalent information for Santa Cruz County, revised and filled in the principal deficiencies of their original map, and added Quaternary surficial deposits (to delimit areas largely invulnerable to these types of landslides). The result is reasonably complete coverage for the 10-county region, available in digital form as (1) vector polygon databases and (2) map-image files for the whole region and separately for each of the ten included counties. Nomenclature for landslides is complex (Varnes, 1978). For present purposes, we use the term slide to include both slumps and translational slides, and earth flow to represent flows of clayey earth. These kinds of landslides typically move slowly, in contrast to the rapid movement of debris flows (see companion report by Ellen and others, 1997). Slides and earth flows deform the ground surface when they move and remain in the landscape as recognizable landslide masses, whereas debris flows run down slope and form separate deposits lower in the landscape.Official Full Description of Landslide Susceptibility Value - From USGS Open File Report 97-745E, 1997 http://pubs.usgs.gov/of/1997/of97-745/of97-745e.htmlMostly Landslides - Consists of mapped landslides, intervening areas typically narrower than 1500 feet, and narrow borders around landslides; defined by drawing envelopes around groups of mapped landslides.Many Landslides - Consists of mapped landslides and more extensive intervening areas that in 'Mostly Landslides'; defined by excluding areas free of mapped landslides; outer boundaries are quadrangle and county limits to the areas in which this unit was defined.Few Landslides - contains few, if any, large mapped landslides, but locally contains scattered small landslides and questionably identified larger landslides; defined in most of the region by excluding groups of mapped landslides but defined directly in areas containing the 'Many Landslides' unit by drawing envelopes around areas free of mapped landslides.Very Few Landslides - (no additional information provided)Surficial Deposits - Areas of gentile slope at low elevation that have little or no potential for the formation of slumps, translational slides, or earth flow except along stream banks and terrace margins; defined by the distribution of surficial deposits.</abstract><purpose>Hazard planning and risk assessment</purpose></descript><citation><citeinfo><origin>U.S. Geological Survey</origin><pubdate>1997</pubdate><title>Landslides_USGS</title><ftname Sync="TRUE">sde_sde_USGS_Existing_Landslide_Areas</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink Sync="TRUE">\\GIS-APPS\GDBTransfer\Data\Environmental\sde_sde_USGS_Existing_Landslide_Areas.shp</onlink></citeinfo></citation><timeperd><current>publication date</current><timeinfo><sngdate><caldate>1997</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>None planned</update></status><spdom><bounding><westbc Sync="TRUE">-123.533493</westbc><eastbc Sync="TRUE">-121.163016</eastbc><northbc Sync="TRUE">38.866059</northbc><southbc Sync="TRUE">36.844655</southbc></bounding><lboundng><leftbc Sync="TRUE">453714.843750</leftbc><rightbc Sync="TRUE">659409.375000</rightbc><bottombc Sync="TRUE">4078928.500000</bottombc><topbc Sync="TRUE">4301705.500000</topbc></lboundng></spdom><keywords><theme><themekey>landslides</themekey><themekey>landslide</themekey><themekey>hazard</themekey></theme><place><placekey>San Francisco Bay Region</placekey></place></keywords><natvform Sync="TRUE">Shapefile</natvform></idinfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</envirDesc><dataLang><languageCode Sync="TRUE" value="eng" country="US"/><countryCode value="USA" Sync="TRUE"/></dataLang><idCitation xmlns=""><resTitle Sync="TRUE">Landslides_USGS</resTitle><presForm xmlns=""><PresFormCd Sync="TRUE" value="005"/></presForm><otherCitDet>Suggested Citation:
+
+Short Citation: USGS, 1997.
+
+Long Citation: USGS. 1997. San Francisco Bay Region Landslide Folio Part E: Map of Debris-Flow Source Areas in the San Francisco Bay Region, California. U.S. Geological Survey Open File Report 97-745E.</otherCitDet></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">453714.84375</westBL><eastBL Sync="TRUE">659409.375</eastBL><northBL Sync="TRUE">4301705.5</northBL><southBL Sync="TRUE">4078928.5</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-123.533493</westBL><eastBL Sync="TRUE">-121.163016</eastBL><northBL Sync="TRUE">38.866059</northBL><southBL Sync="TRUE">36.844655</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/><keyword Sync="TRUE">002</keyword></descKeys><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-123.533493</westBL><eastBL Sync="TRUE">-121.163013</eastBL><northBL Sync="TRUE">38.866059</northBL><southBL Sync="TRUE">36.844655</southBL></GeoBndBox></geoEle></dataExt><idPurp>Hazard planning and risk assessment</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The distribution of landslides evident in the landscape -- most of which are slumps, translational slides, and earth flows -- is of interest both for evaluation of hazard and risk and for use in further study of landslides. Future movement of such landslides is most likely to occur within and around the places where they have previously occurred. A map showing the generalized distribution of these landslides was published by Nilsen and Wright for the 9-county San Francisco Bay region in 1979. Original sources available at the time of that compilation were incomplete for the region. Landslide mapping that has since become available provides a basis for revision and extension of that work, and modern procedures allow this to be done in digital form. We have digitized category 5 (landslides) from the Nilsen and Wright map, added equivalent information for Santa Cruz County, revised and filled in the principal deficiencies of their original map, and added Quaternary surficial deposits (to delimit areas largely invulnerable to these types of landslides). The result is reasonably complete coverage for the 10-county region, available in digital form as (1) vector polygon databases and (2) map-image files for the whole region and separately for each of the ten included counties. Nomenclature for landslides is complex (Varnes, 1978). For present purposes, we use the term slide to include both slumps and translational slides, and earth flow to represent flows of clayey earth. These kinds of landslides typically move slowly, in contrast to the rapid movement of debris flows (see companion report by Ellen and others, 1997). Slides and earth flows deform the ground surface when they move and remain in the landscape as recognizable landslide masses, whereas debris flows run down slope and form separate deposits lower in the landscape.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Official Full Description of Landslide Susceptibility Value - From USGS Open File Report 97-745E, 1997 &lt;/SPAN&gt;&lt;A href="http://pubs.usgs.gov/of/1997/of97-745/of97-745e.html"&gt;&lt;SPAN&gt;http://pubs.usgs.gov/of/1997/of97-745/of97-745e.html&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Mostly Landslides - Consists of mapped landslides, intervening areas typically narrower than 1500 feet, and narrow borders around landslides; defined by drawing envelopes around groups of mapped landslides.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN /&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Many Landslides - Consists of mapped landslides and more extensive intervening areas that in 'Mostly Landslides'; defined by excluding areas free of mapped landslides; outer boundaries are quadrangle and county limits to the areas in which this unit was defined.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN /&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Few Landslides - contains few, if any, large mapped landslides, but locally contains scattered small landslides and questionably identified larger landslides; defined in most of the region by excluding groups of mapped landslides but defined directly in areas containing the 'Many Landslides' unit by drawing envelopes around areas free of mapped landslides.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN /&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Very Few Landslides - (no additional information provided)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN /&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Surficial Deposits - Areas of gentile slope at low elevation that have little or no potential for the formation of slumps, translational slides, or earth flow except along stream banks and terrace margins; defined by the distribution of surficial deposits.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><searchKeys><keyword>landslides</keyword><keyword>landslide</keyword><keyword>hazard</keyword></searchKeys></dataIdInfo><metainfo><langmeta Sync="TRUE">en</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metc><cntinfo><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr><cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice></cntinfo></metc><metd Sync="TRUE">20110331</metd></metainfo><mdLang><languageCode Sync="TRUE" value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"/></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distinfo><resdesc Sync="TRUE">Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo></digform></stdorder></distinfo><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\GIS-APPS\GDBTransfer\Data\Environmental\sde_sde_USGS_Existing_Landslide_Areas.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">32.803</transSize></distTranOps></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="Landslides_USGS"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">10736</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_10N</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci></planar><geodetic><horizdn Sync="TRUE">North American Datum of 1983</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="26910">NAD_1983_UTM_Zone_10N</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.11.2</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Landslides_USGS"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">10736</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><eainfo><detailed Name="Landslides_USGS"><enttyp><enttypl Sync="TRUE">Landslides_USGS</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">10736</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">objectid</attrlabl><attalias Sync="TRUE">objectid</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">PTYPE</attrlabl><attalias Sync="TRUE">ptype</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LSCAT</attrlabl><attalias Sync="TRUE">lscat</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">st_area_sh</attrlabl><attalias Sync="TRUE">st_area_sh</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">st_length_</attrlabl><attalias Sync="TRUE">st_length_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed><overview><dsoverv>DEPARTMENT OF THE INTERIOR
+U.S. GEOLOGICAL SURVEY
+
+Summary Distribution of Slides and Earth Flows in the San Francisco Bay
+Region, California
+
+By  Carl M. Wentworth, Scott E. Graham, Richard J. Pike, 
+    Gregg S. Beukelman, David W. Ramsey, and Andrew D. Barron(1)
+
+
+Future movement of slides and earth flows is most likely to occur within the delineated parts of the landscape where these landslides have previously moved.
+
+
+Open-File Report  97-745 C
+
+1997
+
+
+This report is preliminary and has not been reviewed for conformity with U.S. Geological Survey editorial standards or with the North American Stratigraphic Code.  Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.  
+
+This database, identified as 'Summary Distribution of Slides and Earth Flows in the San Francisco Bay Region, California', has been approved for release and publication by the Director of the USGS. Although this database has been reviewed and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. This database is released on condition that neither the USGS nor the U.S. Government may be held liable for any damages resulting from it use.
+_______________________________
+(1) MENLO PARK, CA 94025 
+
+
+
+SUMMARY DISTRIBUTION OF SLIDES AND EARTH FLOWS IN THE SAN FRANCISCO BAY REGION, CALIFORNIA
+
+by 
+
+Carl M. Wentworth, Scott E. Graham, Richard J. Pike, Gregg S. Beukelman, David W. Ramsey, and Andrew D. Barron
+
+
+INTRODUCTION
+
+The distribution of landslides evident in the landscape -- most of which are slumps, translational slides, and earth flows -- is of interest both for evaluation of hazard and risk and for use in further study of landslides. Future movement of such landslides is most likely to occur within and around the places where they have previously occurred. A map showing the generalized distribution of these landslides was published by Nilsen and Wright for the 9-county San Francisco Bay region in 1979. Original sources available at the time of that compilation were incomplete for the region. Landslide mapping that has since become available provides a basis for revision and extension of that work, and modern procedures allow this to be done in digital form.
+
+We have digitized category 5 (landslides) from the Nilsen and Wright map, added equivalent information for Santa Cruz County, revised and filled in the principal deficiencies of their original map, and added Quaternary surficial deposits (to delimit areas largely invulnerable to these types of landslides). The result is reasonably complete coverage for the 10-county region, available in digital form as (1) vector polygon databases and (2) map-image files for the whole region and separately for each of the ten included counties.
+
+Nomenclature for landslides is complex (Varnes, 1978). For present purposes, we use the term slide to include both slumps and translational slides, and earth flow to represent flows of clayey earth. These kinds of landslides typically move slowly, in contrast to the rapid movement of debris flows (see companion report by Ellen and others, 1997). Slides and earth flows deform the ground surface when they move and remain in the landscape as recognizable landslide masses, whereas debris flows run down slope and form separate deposits lower in the landscape.
+
+
+SUMMARY(2)
+
+Slides and earth flows are landslides that can pose serious hazard to property in the hillside terrain of the San Francisco Bay region. They tend to move slowly and thus rarely threaten life directly. When they move -- in response to such changes as increased water content, earthquake shaking, addition of load, or removal of downslope support -- they deform and tilt the ground surface. The result can be destruction of foundations, offset of roads, and breaking of underground pipes within and along the margins of the landslide, as well as overriding of property and structures downslope.
+
+_______________________________
+(2) This section constitutes the text on the face of the maps.
+
+
+The best available predictor of where movement of slides and earth flows might occur is the distribution of past movements (Nilsen and Turner, 1975). These landslides can be recognized from their distinctive topographic shapes, which can persist in the landscape for thousands of years. Most of the landslides recognizable in this fashion range in size from a few acres to several square miles. Most show no evidence of recent movement and are not currently active. Some small proportion of them may become active in any one year, with movements concentrated within all or part of the landslide masses or around their edges.
+
+These maps and databases provide a summary of the distribution of landslides evident in the landscape of the San Francisco Bay region. Original identification and map delineation of these landslides required detailed analysis of the topography by skilled geologists, a task generally accomplished through the study of aerial photographs. Such original landslide maps are now available for most of the region at scales of 1:24,000 - 1:62,500 (Pike, 1997). The summary map presented here makes selected use of these original maps and the 9-county compilation by Nilsen, Wright, and others (1979) to provide a basis for initial evaluation of areas vulnerable to slumps, translational slides, and earth flows in the region. 
+
+The summary map modifies and improves the compilation by Nilsen and Wright, which was prepared from sources available in the mid-1970's. The generalized landslide distribution shown on that map has here been improved in areas where the 1970's sources were notably deficient (Figure 1), has been extended to include Santa Cruz County, and includes the distribution of surficial deposits that define landscape not generally vulnerable to these kinds of landslides. The method of compilation and resolution of 1:125,000 (1 inch = 2 miles) limits use of the map to regional considerations. For more detailed information, see the maps listed by Pike (1997) or consult local officials or private consultants. 
+
+
+MAPS 
+
+A regional map (1:275,000) and maps for each of the ten counties in the region (1:125,000) are included here as postscript plot files; they show the distribution of landslides in relation to details of the landscape and to roads and towns. The several categories of landslide (see MAP UNITS) are shown in color on a background of shaded relief (Graham and Pike, 1997) together with roads and other cultural features (Aitken, 1997). 
+
+
+MAP UNITS
+
+Four units are distinguished on the maps:
+
+Mostly Landslide - consists of mapped landslides, intervening areas typically narrower than 1500 feet, and narrow borders around landslides; defined by drawing envelopes around groups of mapped landslides.
+
+Many Landslides - consists of mapped landslides and more extensive intervening areas than in 'Mostly Landslide'; defined by excluding areas free of mapped landslides; outer boundaries are quadrangle and county limits to the areas in which this unit was defined.
+
+Few Landslides - contains few, if any, large mapped landslides, but locally contains scattered small landslides and questionably identified larger landslides;  defined in most of the region by excluding groups of mapped landslides but defined directly in areas containing the 'Many Landslides' unit by drawing envelopes around areas free of mapped landslides.
+
+Flat Land - areas of gentle slope at low elevation that have little or no potential for the formation of slumps, translational slides, or earth flow except along stream banks and terrace margins; defined by the distribution of surficial deposits (Wentworth, 1997).
+
+A fifth unit, combined with 'Few Landslides' above, is distinguished in the polygon databases. It was defined in northern Sonoma County by delineating areas free of mapped landslides (see ADDITION OF OTHER LANDSLIDE INFORMATION, below).
+
+
+FLATLANDS
+
+Slides and earth flows do not occur on nearly flat ground -- they require slopes that are steep and long enough to permit failure. We can thus exclude gently sloping ground from principal consideration. Nilsen and Wright used a slope boundary of 15 percent for this purpose. A similar criterion is the boundary between hillsides and areas of recent alluvial deposition. This boundary typically occurs at a slope of about 15 percent. This criterion has the advantage over slope alone of being limited to the lowland areas and excluding such other areas of low slope as hilltops and sidehill benches. We have obtained this alluvial boundary from the regional materials map (Wentworth, 1997).
+
+
+LANDSLIDE CATEGORY OF NILSEN AND WRIGHT
+
+The principal source of information used to define the distribution of slides and earth flows in the region is category 5 (landslides) of the regional slope stability map of Nilsen and Wright (1979). The category 5 areas are a generalization of the distribution of mapped landslide deposits recognizable in the terrain, consisting principally of slumps, translational slides, and earth flows. 
+
+An important limitation of the Nilsen and Wright map is the varied character of the landslide mapping used in its compilation. For many areas, landslide inventory maps of various kinds, and even some detailed engineering geologic maps, were available, whereas elsewhere only general geologic maps were available. Some of the landslide inventory maps delineated only the most obvious landslides in the landscape, whereas others represented a thorough effort to identify all recognizable landslides.
+
+From these varied sources, Nilsen and Wright prepared a generalization of the distribution of the landslides by drawing envelopes around areas containing any type or size of mapped landslide that was within 1,000-1,500 feet of another landslide. Envelopes were also drawn around groups of landslides in such topographic settings as the same hillslope or creek bank, under the logic that such groups of landslides have a common local cause. Isolated landslides were represented directly where large enough, and inversely, inlying areas larger than 1,000-1,500 feet in diameter that lacked landslides were similarly delineated. 
+
+The result was subdivision of the hillside terrain of the region into two categories, one that contained scattered landslides together with intervening ground typically as wide as 1,000-1,500 feet, and a second that contained no mapped landslides. (In the present report these two categories are described as 'Mostly Landslide' and Few Landslides', respectively.) Although generally consistent, in detail the content of each category depends on the type of landslide mapping represented by each compilation source. Where the landslide mapping was thorough, for example, the non-landslide category contains few if any mappable landslides, whereas in the areas for which geologic maps were used as sources, the non-landslide category may contain numerous landslides not deemed important in depicting the areal geology. 
+
+
+ADDITION OF OTHER LANDSLIDE INFORMATION
+
+Additions to the Nilsen and Wright compilation focussed on those areas lacking any information and those for which Nilsen and Wright used general geologic maps as their source (see Figure 1).
+
+Landslide areas were added for Santa Cruz County from the work of Cooper-Clark and Associates (1975) by drawing envelopes around landslides and groups of landslides in the fashion used by Nilsen and Wright. Some small landslides were excluded in this process to avoid their overemphasis.
+
+In northern Sonoma County, Huffman and Armstrong (1980) provide intricate landslide mapping at a scale of 1:62,500. Rather than drawing envelopes around these landslides -- a task for which time was not available -- envelopes were drawn around areas lacking mapped landslides. The result is similar to category 5 of Nilsen and Wright, but includes more area of non-landslide. This category is combined with the 'Few Landslides' category on the maps, but is distinguished in the map database.
+
+In southeastern Sonoma County, Huffman and Armstrong (1980) provide more tractable information. Envelopes were drawn around these landslides and groups of landslides. Other, local additions were made from Huffman and Armstrong in southern Sonoma County (outside the update areas shown on Figure 1).  In the northeastern part of the Bay region, the 1:24,000 landslide maps of Dwyer and others (1976) were similarly used to draw envelopes around landslides and groups of landslides, although numerous small landslides and questionably identified larger landslides were excluded on a case-by-case basis.
+
+A large patch of northwestern Marin County is not addressed by any available landslide mapping. In this area, a map of terrain types prepared by S.D. Ellen (Ellen and others, 1988) was used in concert with a digital slope map(3) (30-meter resolution) to interpret landslide distribution. Areas mapped by Ellen as old erosion surface or 'Hard terrain' together with other areas with slopes less than about 30 percent were categorized as having Few Landslides. Those areas mapped by Ellen as 'Soft terrain' where slopes are greater than 30 percent were categorized as being Mostly Landslide, and intervening areas of 'Intermediate terrain' steeper than 30 percent were categorized as having Many Landslides.
+
+_______________________________
+(3)  Digital slope data prepared by Graham from an unpublished compilation of 7.5 minute, 30-meter altitude grids by Graham, Bennett, Pike, and others, 1997.
+
+
+DIGITAL COMPILATION
+
+The digital compilation was performed in ARC/INFO, a commercial Geographic Information System (Environmental Research Institute [ESRI], Redlands, California). The three 1:125,000 map sheets of the region (Aitken, 1997) were compiled separately and then combined. County databases were clipped from the composite polygon coverage for the region.
+
+The generalized landslide zones of Nilsen and Wright (1979, category 5 of plates 1-3) were captured in digital form by scanning publication negatives. Vector perimeters of the resulting category 5 areas in the raster scans were
+determined automatically (GRIDPOLY) and processed to smooth the boundaries and eliminate polygons with areas less than 4000-5000 square meters (noise in the data). Registration proved to be a problem. Initial registration using geographic locations of various marks on the negatives (determined by comparison with a base map) was improved by rubbersheeting to better fit quadrangle corners evident in the data. Most misfits in the result are probably less than 50 meters on the ground.
+
+The revision lines in the northern part of the region were traced, scanned, hand-edited on-screen, registered with latitude/longitude intersections and intersections in the township/range network, and converted to closed polygons. The information for Santa Cruz County was prepared in the same fashion, using the original 1:24,000 quadrangles as a source. As an initial step, a coherent original for tracing was prepared by scanning, projecting, and plotting the 7.5 minute quadrangles together at 1:62,500.
+
+Ellen's terrain map in northwestern Marin county (Ellen and others, 1988) was scanned and projected and then interpreted on-screen together with the slope data to produce vector polygons.
+
+The areas of surficial deposits were extracted from Wentworth (1997) by selecting appropriate polygons, putting them into a separate data layer, and then dissolving internal lines. The result was a vector polygon layer in which the polygons were categorized as unmapped (within outer sheet boundaries), water, surficial deposits, or bedrock.
+
+Combining of the several polygon datasets was performed in bulk for each sheet, using the INTERSECT and UNION commands in ARC. Because the polygons from the different sources overlapped, this process resulted in many sliver polygons of various sizes. These were largely eliminated in two steps: 
+
+1. Assigning unit identities in a priority sequence -- water, surficial deposits, mostly landslide, many landslides, and finally the remaining few landslides category,
+
+2. Dissolving the boundaries between adjacent polygons with the same resultant identities.
+
+This was a complex process that yielded a usable result, although numerous slivers remain. The hand editing required to produce a more elegant result was not feasible.
+
+
+DIGITAL DATABASE
+
+The database for slides and earth flows consists of vector coverages for the region as a whole and for each of the ten included counties, postscript map-image files for each of those areas, a postscript version of this text and separately of Figure 1 (Sources of Landslide Information), and an ASCII version of this text.
+
+The data files are as follows. (See San Francisco Bay Mapping Team (1997) for information on how to obtain the data.)
+
+sfbr-sef-dbdesc.ps	-  Postscript version of this text
+sfbr-sef-dbdesc.txt	-  ASCII version of this text (without Figure 1)
+sfbr-sef-fig1.ps	-  Postscript file for Figure 1 alone
+
+  Exported ARC coverages
+    sfbr-sef.e00	-  ten-county San Francisco Bay Region
+    al -sef.e00	-  Alameda County 
+    cc -sef.e00	-  Contra Costa County
+    ma-sef.e00	-  Marin County
+    na-sef.e00	-  Napa County
+    scl-sef.e00	-  Santa Clara County
+    scr-sef.e00	-  Santa Cruz County
+    sf-sef.e00	-  San Francisco County
+    sm-sef.e00	-  San Mateo County
+    sol-sef.e00	-  Solano County
+    son-sef.e00	-  Sonoma County
+
+  Postscript map-image files:
+    sfbr-sef.ps	-  ten-county San Francisco Bay region
+    al-sef.ps	-  Alameda County 
+    cc-sef.ps	-  Contra Costa County
+    ma-sef.ps	-  Marin County
+    na-sef.ps	-  Napa County
+    scl-sef.ps	-  Santa Clara County
+    scr-sef.ps	-  Santa Cruz County
+    sf-sef.ps	-  San Francisco County
+    sm-sef.ps	-  San Mateo County
+    sol-sef.ps	-  Solano County
+    son-sef.ps	-  Sonoma County
+
+The map database itself is relatively simple, consisting of unattributed lines and attributed polygons in UTM projection (Table 1), with the polygons assigned to seven categories (see Tables 2 and 3). The polygon database contains two parallel database items (see Table 4), one numeric and one a character field.
+
+Table 1.  Map Projection
+
+	projection	UTM	(Universal Transverse Mercator)
+	units 		meters
+	zone 		10
+
+
+Table 2.  Field Definition Terms
+
+  Terms used in the description of the polygon database
+
+	ITEM NAME 	name of the database field  (item) 	
+	WIDTH		maximum number of digits or characters stored
+	OUTPUT		output width
+	TYPE 		B- binary integer, F- binary floating point number, 
+			    I- ACSII integer, C- ASCII character string
+	N.DEC		number of decimal places maintained for floating 
+			    point numbers
+
+
+Table 3.  Content of the Polygon Attribute Table
+
+  The # and - ids are shown for the regional coverage SFBR-SEF;  equivalent database fields for the county coverages will be named according to those coverage names. 
+
+ITEM NAME   WIDTH   OUTPUT   TYPE   N.DEC	
+
+PTYPE               35            35              C           -       text description of category (see Table 4)
+
+LSCAT                3              3                I            -       numeric category parallel to PTYPE
+
+
+Table 4. Map Unit Categories 
+
+ Note that no LSCAT values of 4 remain. 4 represented bedrock areas in the input geologic materials polygon layer that were later overlaid by LSCAT categories 5-8.
+
+       	  LSCAT	  PTYPE
+
+   	    1 	unmapped	
+
+  	    2 	water
+
+   	    3 	surficial deposits
+
+  	    5 	no mapped landslides (combined with 'few landslides' 
+		on the maps)
+
+   	    6 	few landslides
+
+   	    7 	many landslides
+
+   	    8 	mostly landslide
+
+
+REFERENCES CITED
+
+Aitken, D. S., 1997, digital version of the topographic map of the San Francisco Bay region [California], three sheets, 1:125,000: U.S. Geological Survey Open-file Report 97-500.
+
+Cooper-Clark and Associates, 1975, Preliminary map of landslide deposits in Santa Cruz County, in Seismic Safety Element of the County General Plan: Santa Cruz County, California, Planning Department, 1 sheet, map scale 1:62,500.
+
+Dwyer, M.J., Noguchi, N., and O'Rourke, J., 1976, Reconnaissance photointerpretation map of landslides in 24 selected 7.5-minute quadrangles in Lake, Napa, Solano, and Sonoma Counties, California: U.S. Geological Survey Open-file Map 76-74, map scale 1:24,000.
+
+Ellen, S.D., Cannon, S.H., and Reneau, S.L., 1988, Distribution of debris flows in Marin County, plate 6, in, Ellen, S.D., and Wieczorek, G.F., eds, Landslides, floods, and marine effects of the storm of January 3-5, 1982, in
+  the San Francisco Bay region, California: U.S. Geological Survey Professional Paper 1434, map scale 1:62,500.
+
+Ellen, S.D., Mark, R.K., Wieczorek, G.F., Wentworth, C.M., Ramsey, D.W., and May, T.E., 1997, Principal debris-flow source areas in the San Francisco Bay region, California: U.S. Geological Survey, Open-file Report 97-745 E, map scales 1:275,000 and 1:125,000.
+
+Graham, Scott E. and Pike, R, J., 1997, Shaded-relief map of the San Francisco Bay region, California: U.S. Geological Survey Open-file Report 97-745 B, data resolution 30-m pixels.
+
+Huffman, M.E. and Armstrong, C.F., 1980, Geology for planning in Sonoma County: California Division of Mines and Geology, Special Report 120, Landslides and relative slope stability, map sheets 2A and 2B, map scale 1:62,500.
+
+Nilsen, T.H., and Turner, B.L., 1975, Influence of rainfall and ancient landslide deposits on recent landslides (1950-71) in urban areas of Contra Costa County, California: U.S. Geological Survey Bulletin 1388.
+
+Nilsen, T.H., Wright, R.H., and others, 1979, Relative slope stability and land-use planning in the San Francisco Bay region, California: U.S. Geological Survey Professional Paper 944, map scale 1:125,000.
+
+Pike, R, J., 1997, Index to detailed maps of landslides in the San Francisco Bay region, California: U.S. Geological Survey Open-file Report 97-745 D.
+
+San Francisco Bay Landslide Mapping Team, 1997, San Francisco Bay region landslide folio: U.S. Geological Survey Open-file Report 97-745 A.
+
+Wentworth, C.M., 1997, General distribution of geologic materials in the San Francisco Bay region, California: a digital map database: U.S. Geological Survey Open-file Report 97-744, database resolution 1:125,000.
+
+Varnes, David J., 1978, Slope movement and types and processes, Chapter 2 in Schuster, R.L., and Krizek, R.J., editors, Landslides: analysis and control: Transportation Research Board, National Academy of Sciences, Washington, D.C., Special Report 176.</dsoverv></overview></eainfo><mdDateSt Sync="TRUE">20150615</mdDateSt><dataqual><lineage><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">D:\projects\HazardExposure\Hazards\USGS_Existing_Landslide_Areas</srcused><procdate Sync="TRUE">20090828</procdate><proctime Sync="TRUE">11072200</proctime></procstep></lineage></dataqual></metadata>
